@@ -1,0 +1,11 @@
+.demo-row {
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+    margin: 10px 0;
+    font-size: 14px;
+    .demo-col-inset {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "比原浏览器前端",
+  "type": "iceworks",
+  "builder": "@ali/builder-iceworks"
+}
