@@ -9,7 +9,6 @@ import Logo from '../Logo';
 import './Header.scss';
 
 @withRouter
-@IceUrlChanger
 export default class Header extends Component {
   static propTypes = {};
 
