@@ -15,7 +15,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@ali/ice-ajax": "^0.3.5",
     "@antv/data-set": "^0.9.1",
     "@icedesign/base": "^0.2.0",
     "@icedesign/container": "^0.1.0",

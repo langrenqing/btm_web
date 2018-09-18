@@ -1,7 +1,6 @@
 /* eslint object-shorthand: 0,space-before-function-paren:0, prefer-template:0, wrap-iife:0 */
 import React, { Component } from 'react';
 import Fetch from '../../../../utils/Fetch'
-import ajax from '@ali/ice-ajax';
 
 const ReactHighcharts = require('react-highcharts');
 const Highcharts = require('highcharts');

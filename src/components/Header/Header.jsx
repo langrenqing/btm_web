@@ -9,6 +9,7 @@ import Logo from '../Logo';
 import './Header.scss';
 
 @withRouter
+@IceUrlChanger
 export default class Header extends Component {
   static propTypes = {};
 
@@ -20,7 +21,7 @@ export default class Header extends Component {
   }
 
   onSearch(value) {
-    location.href = "#/block/" + value.key;
+    this.props.history.replace("/block/" + value.key);
   }
 
   render() {
@@ -118,7 +119,7 @@ export default class Header extends Component {
                 })}
             </Menu>
           </div>
-          <div class="ice-design-header-userpannel" style={{
+          <div style={{
                   display: 'flex',
                   alignItems: 'center',
                   fontSize: 12,
